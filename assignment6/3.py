@@ -6,7 +6,7 @@ longutude= float(input("enter longitude"))
 
 coordinates=(latitude,longutude)
 
-if coordinates==location[012.9716]:
+if coordinates==location[0]:
     print("this location already exsist")
     print(location)
 else:
