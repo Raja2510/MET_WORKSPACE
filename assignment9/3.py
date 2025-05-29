@@ -9,3 +9,4 @@ while f:
         break
 else: 
     print(lis)
+print(lis)
