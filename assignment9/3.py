@@ -1,6 +1,6 @@
-f=True
+user = int(input("enter number"))
 lis=[]
-while f:
+while user%2 == 0:
     user = int(input("enter number"))
     if user%2==0:
         lis.append(user)
@@ -9,4 +9,3 @@ while f:
         break
 else: 
     print(lis)
-print(lis)
