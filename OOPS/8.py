@@ -8,7 +8,7 @@ class Library:
         self.books = books
      def issue_book(self, id):
          for book in self.books:
-             if book.id == id:
+             if book.id == id:     
                  book.stock -= 1
      def collect_book(self,id):
         for book in self.books:
