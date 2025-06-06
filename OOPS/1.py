@@ -85,4 +85,5 @@ curtains=shutter()
 print(curtains.size)
 curtains.open()
 
-
+# we cannot perform method with out method
+ 
