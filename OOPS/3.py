@@ -3,7 +3,7 @@
 # 
 # # 
 class AC:
-
+    n="name"
     def __init__(self,brand,color):
         self.brand=brand
         self.color=color
@@ -15,10 +15,11 @@ class AC:
         else:
             return "you dont have "
 
-ac2=AC("samsung","white")
-print(ac2.color)
-print(ac2.brand)
-print(ac2.get_serial_number(id=23))
+print(AC.n)
+# ac2=AC("samsung","white")
+# print(ac2.color)
+# print(ac2.brand)
+# print(ac2.get_serial_number(id=23))
 
 
 

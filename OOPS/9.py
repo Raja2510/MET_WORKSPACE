@@ -11,7 +11,7 @@ class animal(ABC):
     def sound(self):
         pass
     def move(self):
-        pass
+        return "moved"
 class dog(animal):
     def sound(self):
         return "bark"
@@ -19,8 +19,7 @@ class dog(animal):
 
 a=dog()
 print(a.sound())
-
-
+print(a.move())
 
 
 
